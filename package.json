@@ -1,0 +1,43 @@
+{
+  "name": "react-oddball-icons",
+  "version": "1.0.8",
+  "description": "Odd corporate logos to spice up your website",
+  "keywords": [
+    "icons",
+    "corporate",
+    "odd",
+    "svg"
+  ],
+  "homepage": "https://github.com/Niccar95/Oddball-Icons-package#readme",
+  "bugs": {
+    "url": "https://github.com/Niccar95/Oddball-Icons-package/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niccar95/Oddball-Icons-package.git"
+  },
+  "license": "ISC",
+  "author": "Niccar95",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel components --out-dir dist --extensions \".js,.jsx\" && cp index.js dist/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "@svgr/cli": "^8.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
