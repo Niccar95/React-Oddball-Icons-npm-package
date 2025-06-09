@@ -8,13 +8,13 @@
     "odd",
     "svg"
   ],
-  "homepage": "https://github.com/Niccar95/Oddball-Icons-package#readme",
+  "homepage": "https://github.com/Niccar95/React-Oddball-Icons-npm-package#readme",
   "bugs": {
-    "url": "https://github.com/Niccar95/Oddball-Icons-package/issues"
+    "url": "https://github.com/Niccar95/React-Oddball-Icons-npm-package/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Niccar95/Oddball-Icons-package.git"
+    "url": "git+https://github.com/Niccar95/React-Oddball-Icons-npm-package.git"
   },
   "license": "ISC",
   "author": "Niccar95",
