@@ -3,9 +3,10 @@ import * as React from "react";
 var SvgAvatarAlt = function SvgAvatarAlt(props) {
   return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
-    width: 64,
-    height: 64,
-    fill: "none"
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    viewBox: "0 0 64 64"
   }, props), /*#__PURE__*/React.createElement("path", {
     stroke: "#000",
     strokeLinecap: "round",
@@ -13,7 +14,6 @@ var SvgAvatarAlt = function SvgAvatarAlt(props) {
     strokeWidth: 2,
     d: "M32 32c6.627 0 12-5.373 12-12S38.627 8 32 8s-12 5.373-12 12 5.373 12 12 12M16 42.2c0-9.6 32-9.6 32 0V55H16z"
   }), /*#__PURE__*/React.createElement("path", {
-    fill: "#fff",
     stroke: "#000",
     strokeLinecap: "round",
     strokeLinejoin: "round",

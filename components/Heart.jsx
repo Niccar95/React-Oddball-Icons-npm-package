@@ -2,13 +2,13 @@ import * as React from "react";
 const SvgHeart = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={64}
-    height={64}
+    width="1em"
+    height="1em"
     fill="none"
+    viewBox="0 0 64 64"
     {...props}
   >
     <path
-      fill="#fff"
       stroke="#000"
       strokeWidth={2}
       d="M32.064 49.052s-14-10-18-20 4-18 12-14c4 2 6 6 6 6s2-4 6-6c8-4 16 4 12 14s-18 20-18 20Z"

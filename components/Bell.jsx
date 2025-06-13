@@ -2,13 +2,13 @@ import * as React from "react";
 const SvgBell = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={64}
-    height={64}
+    width="1em"
+    height="1em"
     fill="none"
+    viewBox="0 0 64 64"
     {...props}
   >
     <path
-      fill="#fff"
       stroke="#000"
       strokeWidth={2}
       d="M32 58a6 6 0 0 0 6-6H26a6 6 0 0 0 6 6ZM50 44H14s4-6 4-18c0-9 6-14 14-14s14 5 14 14c0 12 4 18 4 18Z"

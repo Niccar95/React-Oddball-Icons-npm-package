@@ -2,13 +2,13 @@ import * as React from "react";
 const SvgClockAlt = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={64}
-    height={64}
+    width="1em"
+    height="1em"
     fill="none"
+    viewBox="0 0 64 64"
     {...props}
   >
     <path
-      fill="#fff"
       stroke="#000"
       strokeWidth={2}
       d="M15 10h39v39a4 4 0 0 1-4 4H11V14a4 4 0 0 1 4-4Z"
