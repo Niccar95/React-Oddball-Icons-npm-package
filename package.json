@@ -1,6 +1,6 @@
 {
   "name": "react-oddball-icons",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Odd corporate logos to spice up your website",
   "keywords": [
     "icons",
@@ -29,7 +29,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel components --out-dir dist --extensions \".js,.jsx\" && cp index.js dist/index.js" 
+    "build": "babel components --out-dir dist --extensions \".js,.jsx\" && cp index.js dist/index.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.27.2",
