@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgArrow = (props) => (
+const SvgArrowRight = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
@@ -22,4 +22,4 @@ const SvgArrow = (props) => (
     />
   </svg>
 );
-export default SvgArrow;
+export default SvgArrowRight;
