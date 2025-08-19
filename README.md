@@ -2,6 +2,8 @@
 
 A weird little icon set for React with corporate vibes and oddball charm. For UI's that don’t take themselves too seriously.
 
+🌐 [Official Website](https://react-oddball-icons.vercel.app/)
+
 ## ✨ Features
 
 - ⚛️ Easy-to-use React components
@@ -35,9 +37,36 @@ const HelloWorld = () => {
 export default HelloWorld;
 ```
 
+## 🎨 Styling
+
+You can easily customize the appearance of your icons using standard CSS or inline styles. For example:
+
+```jsx
+import { Avatar } from "react-oddball-icons";
+
+const HelloWorld = () => (
+  <>
+    <Avatar
+      width={60}
+      height={60}
+      style={{
+        padding: "10px",
+        borderRadius: "8px",
+        backgroundColor: "#f3f4f6",
+      }}
+    />
+  </>
+);
+
+export default HelloWorld;
+```
+
 ## Available Icon Components
 
-- `Arrow`
+- `ArrowDown`
+- `ArrowLeft`
+- `ArrowRight`
+- `ArrowUp`
 - `Avatar`
 - `AvatarAlt`
 - `Bell`
@@ -45,20 +74,32 @@ export default HelloWorld;
 - `Bookmark`
 - `BookmarkAlt`
 - `Calculator`
+- `CalculatorAlt`
 - `Calender`
+- `CalenderAlt`
 - `Clock`
 - `ClockAlt`
 - `Document`
+- `DocumentAlt`
 - `Envelope`
+- `EnvelopeAlt`
+- `Hamburger`
+- `HamburgerAlt`
 - `Heart`
+- `HeartAlt`
 - `Lock`
 - `LockAlt`
 - `MagnifyingGlass`
 - `MagnifyingGlassAlt`
+- `Pin`
+- `PinAlt`
 - `Presentation`
+- `PresentationAlt`
 - `SpeechBubble`
 - `SpeechBubbleAlt`
 - `StapleDiagram`
 - `StapleDiagramAlt`
 - `Suitcase`
 - `SuitcaseAlt`
+- `TrashCan`
+- `TrashCanAlt`
