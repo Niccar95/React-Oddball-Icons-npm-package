@@ -9,7 +9,7 @@ export { default as BellAlt } from "./BellAlt";
 export { default as Bookmark } from "./Bookmark";
 export { default as BookmarkAlt } from "./BookmarkAlt";
 export { default as Calculator } from "./Calculator";
-export { default as CalculatorAlt } from "./Calculator";
+export { default as CalculatorAlt } from "./CalculatorAlt";
 export { default as Calender } from "./Calender";
 export { default as CalenderAlt } from "./CalenderAlt";
 export { default as Clock } from "./Clock";
