@@ -1,4 +1,4 @@
-import { SVGProps } from "react";
+import { JSX, SVGProps } from "react";
 
 export declare const ArrowDown: (props: SVGProps<SVGSVGElement>) => JSX.Element;
 export declare const ArrowLeft: (props: SVGProps<SVGSVGElement>) => JSX.Element;
@@ -17,11 +17,23 @@ export declare const BookmarkAlt: (
 export declare const Calculator: (
   props: SVGProps<SVGSVGElement>
 ) => JSX.Element;
+export declare const CalculatorAlt: (
+  props: SVGProps<SVGSVGElement>
+) => JSX.Element;
 export declare const Calender: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+export declare const CalenderAlt: (
+  props: SVGProps<SVGSVGElement>
+) => JSX.Element;
 export declare const Clock: (props: SVGProps<SVGSVGElement>) => JSX.Element;
 export declare const ClockAlt: (props: SVGProps<SVGSVGElement>) => JSX.Element;
 export declare const Document: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+export declare const DocumentAlt: (
+  props: SVGProps<SVGSVGElement>
+) => JSX.Element;
 export declare const Envelope: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+export declare const EnvelopeAlt: (
+  props: SVGProps<SVGSVGElement>
+) => JSX.Element;
 export declare const Hamburger: (props: SVGProps<SVGSVGElement>) => JSX.Element;
 export declare const HamburgerAlt: (
   props: SVGProps<SVGSVGElement>
@@ -36,7 +48,12 @@ export declare const MagnifyingGlass: (
 export declare const MagnifyingGlassAlt: (
   props: SVGProps<SVGSVGElement>
 ) => JSX.Element;
+export declare const Pin: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+export declare const PinAlt: (props: SVGProps<SVGSVGElement>) => JSX.Element;
 export declare const Presentation: (
+  props: SVGProps<SVGSVGElement>
+) => JSX.Element;
+export declare const PresentationAlt: (
   props: SVGProps<SVGSVGElement>
 ) => JSX.Element;
 export declare const SpeechBubble: (
@@ -53,6 +70,10 @@ export declare const StapleDiagramAlt: (
 ) => JSX.Element;
 export declare const Suitcase: (props: SVGProps<SVGSVGElement>) => JSX.Element;
 export declare const SuitcaseAlt: (
+  props: SVGProps<SVGSVGElement>
+) => JSX.Element;
+export declare const TrashCan: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+export declare const TrashCanAlt: (
   props: SVGProps<SVGSVGElement>
 ) => JSX.Element;
 
