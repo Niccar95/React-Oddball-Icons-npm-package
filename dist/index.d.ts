@@ -20,8 +20,8 @@ export declare const Calculator: (
 export declare const CalculatorAlt: (
   props: SVGProps<SVGSVGElement>
 ) => JSX.Element;
-export declare const Calender: (props: SVGProps<SVGSVGElement>) => JSX.Element;
-export declare const CalenderAlt: (
+export declare const Calendar: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+export declare const CalendarAlt: (
   props: SVGProps<SVGSVGElement>
 ) => JSX.Element;
 export declare const Clock: (props: SVGProps<SVGSVGElement>) => JSX.Element;

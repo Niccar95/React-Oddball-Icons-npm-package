@@ -75,8 +75,8 @@ export default HelloWorld;
 - `BookmarkAlt`
 - `Calculator`
 - `CalculatorAlt`
-- `Calender`
-- `CalenderAlt`
+- `Calendar`
+- `CalendarAlt`
 - `Clock`
 - `ClockAlt`
 - `Document`
