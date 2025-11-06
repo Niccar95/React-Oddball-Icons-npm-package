@@ -77,8 +77,14 @@ export default HelloWorld;
 - `CalculatorAlt`
 - `Calendar`
 - `CalendarAlt`
+- `CheckMark`
+- `CheckMarkAlt`
 - `Clock`
 - `ClockAlt`
+- `CoffeeMug`
+- `CoffeeMugAlt`
+- `Cross`
+- `CrossAlt`
 - `Document`
 - `DocumentAlt`
 - `Envelope`
@@ -87,6 +93,10 @@ export default HelloWorld;
 - `HamburgerAlt`
 - `Heart`
 - `HeartAlt`
+- `Home`
+- `HomeAlt`
+- `LightBulb`
+- `LightBulbAlt`
 - `Lock`
 - `LockAlt`
 - `MagnifyingGlass`
@@ -103,3 +113,5 @@ export default HelloWorld;
 - `SuitcaseAlt`
 - `TrashCan`
 - `TrashCanAlt`
+- `Web`
+- `WebAlt`
