@@ -1,0 +1,40 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+var SvgLightBulb = function SvgLightBulb(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 64,
+    height: 64,
+    fill: "none"
+  }, props), /*#__PURE__*/React.createElement("path", {
+    stroke: "#000",
+    strokeWidth: 2,
+    d: "M32 14c-8.889 0-16 8.26-16 18.174 0 7.417 7.166 12.17 8.63 17.848.276 1.07 1.154 1.978 2.259 1.978H37.11c1.105 0 1.983-.908 2.26-1.978C40.833 44.345 48 39.592 48 32.174 48 22.26 40.889 14 32 14Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    stroke: "#000",
+    strokeWidth: 1.5,
+    d: "M36 52h-8a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1ZM34 59h-4a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    stroke: "#000",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 2,
+    d: "m22.496 10.876-1.393-1.99-1.475-2.106M32 9V4M42 10.915l1.393-1.99 1.475-2.106"
+  }), /*#__PURE__*/React.createElement("path", {
+    stroke: "#000",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 1.5,
+    d: "M27 56h10"
+  }), /*#__PURE__*/React.createElement("path", {
+    stroke: "#000",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 2,
+    d: "m46.917 16.334 2.282-.83 2.416-.88M17.521 16.334l-2.282-.83-2.416-.88"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#000",
+    d: "m26.574 34.562-.19-1.409-2.055-.335-.628 1.275-1.287-.21 2.913-5.335 1.462.239 1.072 5.985zm-.312-2.457-.194-1.378q-.017-.139-.05-.352l-.058-.441q-.026-.227-.04-.39-.064.15-.171.375a39 39 0 0 1-.336.7l-.62 1.245zm6.93 3.538-1.19-.195.397-2.432-2.232-.365-.398 2.433-1.195-.195.921-5.637 1.195.196-.36 2.209 2.231.364.361-2.209 1.192.195zm4.878.797-.19-1.409-2.055-.335-.628 1.275-1.287-.21 2.914-5.335 1.46.238 1.073 5.986zm-.311-2.458-.195-1.377a15 15 0 0 0-.05-.353l-.058-.44q-.026-.226-.039-.39-.064.15-.172.375a38 38 0 0 1-.336.7l-.62 1.245zm3.511 1.06-.94-.153.418-3.798 1.334.217zm-1.368 1.131q.06-.362.28-.477a.8.8 0 0 1 .506-.067q.273.045.446.223.177.18.117.541-.056.348-.282.469a.75.75 0 0 1-.495.077.78.78 0 0 1-.457-.233q-.172-.186-.115-.533"
+  }));
+};
+export default SvgLightBulb;

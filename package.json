@@ -29,15 +29,19 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel components --out-dir dist --extensions \".js,.jsx\" && cp index.js dist/index.js"
+    "build": "babel components --out-dir dist --extensions \".js,.jsx,.tsx\" && tsc && cp index.js dist/index.js",
+    "convert-svg": "svgr --out-dir components --typescript -- icons"
   },
   "devDependencies": {
     "@babel/cli": "^7.27.2",
     "@babel/core": "^7.27.4",
     "@babel/preset-env": "^7.27.2",
     "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.28.5",
     "@svgr/cli": "^8.1.0",
+    "@types/react": "^19.2.2",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "typescript": "^5.9.3"
   }
 }

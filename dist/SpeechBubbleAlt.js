@@ -3,10 +3,9 @@ import * as React from "react";
 var SvgSpeechBubbleAlt = function SvgSpeechBubbleAlt(props) {
   return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
-    width: "1em",
-    height: "1em",
-    fill: "none",
-    viewBox: "0 0 64 64"
+    width: 64,
+    height: 64,
+    fill: "none"
   }, props), /*#__PURE__*/React.createElement("path", {
     stroke: "#000",
     strokeWidth: 2,
